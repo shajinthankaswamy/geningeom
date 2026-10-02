@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "geningeom"
+version = "0.0.1"
+description = "Generative inverse design of geometries for nonlinear PDEs, guided by exact adjoints (under active development)"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+authors = [{ name = "Shajin Thankaswamy" }]
+keywords = ["inverse design", "adjoint", "generative models", "PDE", "scientific machine learning"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.urls]
+Homepage = "https://github.com/shajinthankaswamy/geningeom"
+Repository = "https://github.com/shajinthankaswamy/geningeom"
