@@ -1,17 +1,13 @@
-# geningeom
+# GenInGeoX
 
-**Generative inverse design of geometries for nonlinear PDEs, guided by exact adjoints.**
+**Generative inverse design of time-varying photonic metastructures in JAX.**
 
 🚧 **Under active development.** The first release with working code is coming soon.
-
-geningeom will combine generative models, neural-operator surrogates and exact adjoint
-gradients to produce diverse, physics-consistent designs for problems governed by
-nonlinear partial differential equations.
 
 ## Installation
 
 ```bash
-pip install geningeom
+pip install geningeox
 ```
 
 ## Status
