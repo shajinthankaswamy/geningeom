@@ -3,15 +3,15 @@ requires = ["hatchling>=1.27"]
 build-backend = "hatchling.build"
 
 [project]
-name = "geningeom"
+name = "geningeox"
 version = "0.0.1"
-description = "Generative inverse design of geometries for nonlinear PDEs, guided by exact adjoints (under active development)"
+description = "Generative inverse design of time-varying photonic metastructures in JAX (under active development)"
 readme = "README.md"
 license = "Apache-2.0"
 license-files = ["LICENSE"]
 requires-python = ">=3.10"
 authors = [{ name = "Shajin Thankaswamy" }]
-keywords = ["inverse design", "adjoint", "generative models", "PDE", "scientific machine learning"]
+keywords = ["inverse design", "FDTD", "JAX", "time-varying media", "metasurfaces", "generative models"]
 classifiers = [
     "Development Status :: 1 - Planning",
     "Intended Audience :: Science/Research",
@@ -20,5 +20,5 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/shajinthankaswamy/geningeom"
-Repository = "https://github.com/shajinthankaswamy/geningeom"
+Homepage = "https://github.com/shajinthankaswamy/GenInGeoX"
+Repository = "https://github.com/shajinthankaswamy/GenInGeoX"
